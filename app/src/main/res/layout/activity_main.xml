@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/my_nanodegree_apps"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_launch_spotify"
+        style="@style/ButtonAppLauncher.Light"
+        android:text="@string/app_name_spotify_streamer" />
+
+    <Button
+        android:id="@+id/button_launch_scores"
+        style="@style/ButtonAppLauncher.Light"
+        android:text="@string/app_name_scores_app" />
+
+    <Button
+        android:id="@+id/button_launch_library"
+        style="@style/ButtonAppLauncher.Light"
+        android:text="@string/app_name_library_app" />
+
+    <Button
+        android:id="@+id/button_launch_build_it_bigger"
+        style="@style/ButtonAppLauncher.Light"
+        android:text="@string/app_name_build_it_bigger" />
+
+    <Button
+        android:id="@+id/button_launch_xyz_reader"
+        style="@style/ButtonAppLauncher.Light"
+        android:text="@string/app_name_xyz_reader" />
+
+    <Button
+        android:id="@+id/button_launch_capstone"
+        style="@style/ButtonAppLauncher.Dark"
+        android:text="@string/app_name_capstone_my_own_app"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

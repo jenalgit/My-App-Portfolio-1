@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="ButtonAppLauncher" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:width">200dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:onClick">launchApp</item>
+    </style>
+
+    <style name="ButtonAppLauncher.Light">
+        <item name="android:background">#B0BEC5</item>
+    </style>
+
+    <style name="ButtonAppLauncher.Dark">
+        <item name="android:background">#455A64</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
